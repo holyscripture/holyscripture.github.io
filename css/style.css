@@ -73,22 +73,19 @@ html,body{margin:0;padding:0}
 }
 
 
-#wrapper h1 {
-  color: blue;
-  height: 100px;
-  width: 100px;
-  margin: 5em auto 0 auto;
+#wrapper h2 {
+  
   -webkit-animation: mike 3s 1s infinite ease-in-out;
   animation: mike 2s 1s infinite;
 }
 
 
 @-webkit-keyframes mike {
-  from { transform: scale(1) }
-  to { transform: scale(2) }
+  from { font-size: 1em) }
+  to { font-size: 3em) }
 }
 
 @keyframes mike {
-  from { transform: scale(1) }
-  to { transform: scale(2) }
+  from { font-size: 1em }
+  to { font-size: 3em) }
 }
