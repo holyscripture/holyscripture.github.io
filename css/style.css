@@ -1,6 +1,7 @@
 header h1 {
 	margin: 0;
 	padding-top: 20px;
+	color: #fff;
 }
 header {
 	width: 100%;
@@ -36,6 +37,11 @@ header {
 	float: left;
 	margin-left: 20px;
 
+
+}
+
+.main-nav a {
+	color: #fff;
 }
 
 #wrapper {
@@ -64,4 +70,25 @@ html,body{margin:0;padding:0}
 
 #logo {
 	margin: 0;
+}
+
+
+#wrapper h1 {
+  color: blue;
+  height: 100px;
+  width: 100px;
+  margin: 5em auto 0 auto;
+  -webkit-animation: mike 3s 1s infinite ease-in-out;
+  animation: mike 2s 1s infinite;
+}
+
+
+@-webkit-keyframes mike {
+  from { transform: scale(1) }
+  to { transform: scale(2) }
+}
+
+@keyframes mike {
+  from { transform: scale(1) }
+  to { transform: scale(2) }
 }
