@@ -73,19 +73,36 @@ html,body{margin:0;padding:0}
 }
 
 
-#wrapper h2 {
+
+	
+
+
   
-  -webkit-animation: mike 3s 1s infinite ease-in-out;
-  animation: mike 2s 1s infinite;
+  }
+
+  .box {
+  height: 200px;
+ width: 300px;
+  overflow: hidden;
+  
 }
 
-
-@-webkit-keyframes mike {
-  from { font-size: 1em) }
-  to { font-size: 3em) }
+.first {
+  margin-bottom: 0;
 }
 
-@keyframes mike {
-  from { font-size: 1em }
-  to { font-size: 3em) }
+.box:hover .first {
+  margin-top: 200px;
+  -webkit-transition: 1s;
+}
+
+.last {
+  margin-top: -300px;
+  
+}
+
+.box:hover .last {
+  margin-bottom: 0;
+  display: block;
+  -webkit-transition: 1s;
 }
