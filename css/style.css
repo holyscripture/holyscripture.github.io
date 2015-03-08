@@ -71,15 +71,21 @@ html,body{margin:0;padding:0}
   .box {
   	margin-top: 10px;
 
-  	background-color: #ddd;
+  	background-color: darkred;
   	border-radius: 10px;
   	height: 100px;
   	width: 700px;
 
   
   overflow: hidden;
+  -webkit-transition: 1s;
 
   
+}
+
+.box:hover {
+	background-color: white;
+	-webkit-transition: 1s;
 }
 
 .first {
@@ -95,6 +101,8 @@ html,body{margin:0;padding:0}
 }
 
 .last {
+	letter-spacing: .1em;
+	font-style: italic;
 	padding: 20px;
   margin-top: -200px;
   -webkit-transition: .2s;
@@ -103,12 +111,13 @@ html,body{margin:0;padding:0}
 
 .box:hover .last {
   color: black;
-  margin-top: -260px;
+  margin-top: -270px;
   
   -webkit-transition: .5s;
 }
 
 .title {
+	color: white;
 	text-align: center;
 	font-weight: bold;
 
